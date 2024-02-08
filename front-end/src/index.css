@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  border-style: hidden;
+  background-color: rgba(146, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    background-color 0.25s ease-in-out;
+}
+
+.card-image {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  aspect-ratio: 5 / 3;
+}
+
+.card1:hover {
+  transform: scale(1.075);
+  background-color: rgba(0, 183, 255, 0.1);
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 115, 255, 0.2);
+}
+
+.form-control {
+  background-color: rgba(146, 255, 255, 0.15);
+  border-radius: 15px;
+  box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.5),
+    10px 10px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    background-color 0.25s ease-in-out;
+}
+
+.form-control-description {
+  border-radius: 15px 15px 0px 15px;
+}
+
+.form-control:active,
+.form-control:focus {
+  transform: scale(1.01);
+  background-color: rgba(0, 183, 255, 0.1);
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 115, 255, 0.2);
+}
+
+.form-control:hover {
+  transform: scale(1.01);
+  background-color: rgba(0, 183, 255, 0.1);
+}
+
+.btn {
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+}
+
+.btn-red:hover {
+  box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.7);
+  transform: scale(0.92);
+}
+
+.btn-blue:hover {
+  box-shadow: 0px 0px 15px rgba(0, 55, 255, 0.7);
+  transform: scale(1.08);
+}
+
+.btn-grey:hover {
+  transform: scale(0.92);
+  box-shadow: 0px 0px 15px rgba(100, 100, 100, 0.8);
+}
+
+.header {
+  font-weight: bolder;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    background-color 0.25s ease-in-out;
+}
+
+.header:hover {
+  transform: scale(1.1);
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  border-color: black;
+  background-color: azure;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    background-color 0.25s ease-in-out;
+}
+
+.modal-content:hover {
+  transform: scale(1.04);
+  border-color: rgba(246, 3, 3, 0.3);
+  box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.6);
+}
+
+.card2:hover {
+  transform: scale(1.01);
+  border-color: blue;
+  background-color: rgba(0, 183, 255, 0.15);
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 115, 255, 0.2);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #000000;
+  display: block;
+  height: 50px;
+  width: 0px;
+}
+
+.card:hover ::-webkit-scrollbar {
+  width: 0px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  height: 50px;
+  box-shadow: inset 0 0 3px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 115, 255, 0.4);
+  border-radius: 10px;
+}
+
+.card ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 115, 255, 1);
+}
+
+.form-control {
+  border: none;
+}
