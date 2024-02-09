@@ -24,4 +24,4 @@ This project is a simple Todo List web application built using the MERN stack (M
 ## Prerequisites
 
 - Node.js installed on your machine for javascript runtime and npm/npx.
-- MongoDB installed on your machine for storing the todos and images.
+- MongoDB installed on your machine for storing the todo information and images.
