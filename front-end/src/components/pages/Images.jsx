@@ -19,7 +19,7 @@ export default function Images() {
     }
   };
 
-  useEffect(() => fetchImageData, []);
+  useEffect(() => fetchImageData(), []);
 
   return (
     <>
