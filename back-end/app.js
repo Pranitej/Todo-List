@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-const url = "mongodb://localhost:27017/TodoProject";
+const url = "mongodb+srv://vangalapranitej:W8CvLc4ZcH09pMHT@cluster0.5cbl06m.mongodb.net/TodoProject?retryWrites=true&w=majority&appName=Cluster0";
 const app = express();
 
 app.use(express.json());
