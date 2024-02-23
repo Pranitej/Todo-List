@@ -28,7 +28,7 @@ export default function DisplayImages({ data, fetchImageData }) {
                   <div className="col-lg-4" key={item._id}>
                     <div className="card card1 mb-3 mt-3">
                       <img
-                        src={`http://localhost:5000/${item.image}`}
+                        src={`https://todo-list-st7u.onrender.com/${item.image}`}
                         className="card-img-top card-image"
                         alt="..."
                       />
@@ -63,7 +63,7 @@ export default function DisplayImages({ data, fetchImageData }) {
                           className="btn btn-outline-primary btn-blue"
                           style={{ marginLeft: "10px" }}
                           target="_blank"
-                          to={`http://localhost:5000/${item.image}`}
+                          to={`https://todo-list-st7u.onrender.com/${item.image}`}
                         >
                           View Image
                         </Link>
