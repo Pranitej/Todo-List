@@ -4,7 +4,7 @@ import axios from "axios";
 export default function DisplayTodos({ data, fetchData }) {
   const deleteTodo = async (todoId) => {
     try {
-      await axios.delete(`http://localhost:5000/todo/deletetodo/${todoId}`);
+      await axios.delete(`https://todo-list-st7u.onrender.com/todo/deletetodo/${todoId}`);
       fetchData();
     } catch (error) {
       console.error("Error : " + error);
@@ -13,7 +13,7 @@ export default function DisplayTodos({ data, fetchData }) {
 
   const deleteAll = async () => {
     try {
-      await axios.delete(`http://localhost:5000/todo/deletealltodos`);
+      await axios.delete(`https://todo-list-st7u.onrender.com/todo/deletealltodos`);
       fetchData();
     } catch (error) {
       console.error("Error : " + error);
