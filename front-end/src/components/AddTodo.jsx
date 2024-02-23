@@ -9,7 +9,7 @@ export default function AddTodo({ fetchData }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/todo/addtodo", {
+      await axios.post("https://todo-list-st7u.onrender.com/todo/addtodo", {
         title: title,
         description: description,
       });
