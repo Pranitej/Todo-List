@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <NavBar page="about" />
-      <div className="container mt-5">
+      <div className="container mt-5 mb-5">
         <div className="card card2">
           <div className="card-header">About this project</div>
           <div className="card-body">
@@ -28,7 +28,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="card card2 mt-5">
+        <div className="card card2 mt-5 mb-5">
           <div className="card-header">
             What is Todo Application and why should we use Todo Application ?
           </div>
