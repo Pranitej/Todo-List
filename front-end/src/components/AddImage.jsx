@@ -16,7 +16,7 @@ export default function AddImage({ fetchImageData }) {
       formData.append("title", title);
       formData.append("description", description);
 
-      await axios.post("http://localhost:5000/image/uploadImage", formData, {
+      await axios.post("https://todo-list-st7u.onrender.com/image/uploadImage", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
