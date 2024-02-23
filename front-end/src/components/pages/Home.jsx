@@ -12,7 +12,7 @@ export default function Home() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/todo/getalltodos"
+        "https://todo-list-st7u.onrender.com/todo/getalltodos"
       );
       setData(response.data.reverse());
     } catch (error) {
