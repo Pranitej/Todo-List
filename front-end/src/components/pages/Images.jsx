@@ -12,7 +12,7 @@ export default function Images() {
 
   const fetchImageData = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/image/getImage");
+      const response = await axios.get("https://todo-list-st7u.onrender.com/image/getImage");
       setData(response.data);
     } catch (error) {
       console.error("Error fetching image data:", error);
