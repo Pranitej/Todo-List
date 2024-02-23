@@ -1,0 +1,6 @@
+* npm i <packagename> => Used to install packages.
+* npm init -y => Initializes a new Node.js application with package.json file.
+* npm i --save-dev nodemon => nodemon is used to restart the server automatically.
+  * add "start": "nodemon <filename.js>" by removing the "text" in the "scripts" object.
+* npm run devStart => This command is used to start the server.
+  * nodemon run start
