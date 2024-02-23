@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function DisplayImages({ data, fetchImageData }) {
   const deleteImage = async (imageId) => {
     try {
-      await axios.delete(`http://localhost:5000/image/deleteimage/${imageId}`);
+      await axios.delete(`https://todo-list-st7u.onrender.com/image/deleteimage/${imageId}`);
       fetchImageData();
     } catch (error) {
       console.error("Error : " + error);
